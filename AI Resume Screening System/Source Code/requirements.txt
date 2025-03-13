@@ -1,0 +1,14 @@
+numpy
+pandas
+spacy
+torch
+transformers
+sentence-transformers
+pytesseract
+opencv-python
+PyPDF2
+streamlit
+Flask
+scikit-learn
+matplotlib
+seaborn
