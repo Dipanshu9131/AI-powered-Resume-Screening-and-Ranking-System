@@ -1,7 +1,7 @@
 # AI-Powered Resume Screening and Ranking System
 
 ## 🚀 Project Overview
-This project is developed as part of my **IT Internship under the AICTE TechSaksham Program**, in collaboration with **Microsoft and SAP**.  
+This project is developed as part of my **Internship under the AICTE TechSaksham Program**, in collaboration with **Microsoft and SAP**.  
 The **AI-Powered Resume Screening and Ranking System** leverages **Artificial Intelligence (AI)** and **Natural Language Processing (NLP)** to automate the hiring process by **extracting key details from resumes**, **ranking candidates**, and **detecting bias** to ensure **fair and efficient recruitment.**
 
 ---
@@ -87,7 +87,7 @@ streamlit run resume_ranking_advanced.py
 ---
 
 ## 🙏 Acknowledgment
-This project was developed as part of my **IT Internship under the AICTE TechSaksham Program**, in collaboration with **Microsoft and SAP**. I would like to express my gratitude to my mentor **[Mentor's Name]** for their continuous support and guidance.
+This project was developed as part of my **Internship under the AICTE TechSaksham Program**, in collaboration with **Microsoft and SAP**. I would like to express my gratitude to my mentor ** Saomya Chawdary** for their continuous support and guidance.
 
 ---
 
