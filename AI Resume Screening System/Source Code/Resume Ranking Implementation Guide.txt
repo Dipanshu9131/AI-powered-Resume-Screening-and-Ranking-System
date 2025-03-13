@@ -1,0 +1,44 @@
+AI-Powered Resume Screening & Ranking System – Installation & Implementation Guide
+
+Step 1: Install Python (Version 3.11.6)
+1. Download Python 3.11.6 from the official website:  
+   https://www.python.org/downloads/release/python-3116/
+2. Run the installer and check the box for "Add Python to PATH".
+3. Click "Install Now" and complete the installation.
+4. Verify installation by opening Command Prompt (CMD) and running:  
+   python --version
+   It should output:
+   Python 3.11.6
+
+Step 2: Install Jupyter Lab
+1. Open CMD and run:  
+   pip install jupyterlab
+2. After installation, launch Jupyter Lab using:  
+   jupyter lab
+
+Step 3: Install Required Libraries
+Run the following command in CMD to install all required dependencies:  
+pip install streamlit pandas numpy PyPDF2 pytesseract pillow spacy sentence-transformers torch
+
+Additionally, download the spaCy language model:  
+python -m spacy download en_core_web_sm
+
+Step 4: Set Up the Project
+1. Create a project folder:  
+   mkdir resume_ranking_project
+   cd resume_ranking_project
+2. Inside the folder, create a Python script:  
+   notepad resume_ranking_advanced.py
+3. Copy and paste the full code of your resume_ranking_advanced.py script.
+
+Step 5: Run the Streamlit Application
+1. Open CMD inside the project folder.
+2. Run the Streamlit app:  
+   streamlit run resume_ranking_advanced.py
+3. Your browser will open a localhost link. Upload resumes and enter the job description to start ranking.
+
+Step 6: Testing & Debugging
+- If any issue arises, check error messages in CMD.
+- To stop the Streamlit app, press CTRL + C in CMD.
+- Ensure Tesseract OCR is installed (if using image resumes).  
+  Download from: https://github.com/UB-Mannheim/tesseract/wiki
