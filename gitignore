@@ -1,0 +1,43 @@
+
+# Ignore Python bytecode
+__pycache__/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files
+*.pkl
+*.h5
+*.model
+
+# Ignore sensitive files
+config.json
+credentials.json
+
+# Ignore cache files
+.cache/
+__pycache__/
+
+# Ignore unnecessary files
+*.tmp
+*.bak
+
+# Ignore large files
+*.mp4
+*.avi
+
+# Ignore documentation backup
+*.docx~
+*.pptx~
